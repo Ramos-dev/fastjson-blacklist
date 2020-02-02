@@ -42,6 +42,7 @@ public class V1_2_62 {
                 add(new BlackInfo.BlockItem(3256258368248066264L, "")); //0x2d308dbbc851b0d8L
                 add(new BlackInfo.BlockItem(4841947709850912914L, "")); //0x43320dc9d2ae0892L
                 add(new BlackInfo.BlockItem(6534946468240507089L, "")); //0x5ab0cb3071ab40d1L
+                add(new BlackInfo.BlockItem(6293031534589903644L, "")); //0x5ab0cb3071ab40d1L
             }};
         }
         return data;
