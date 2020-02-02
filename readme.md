@@ -146,8 +146,8 @@ public class Main {
 | 1.2.62 | 6734240326434096246 | 0x5d74d3e5b9370476L | com.mysql.cj.jdbc.MysqlXADataSource |
 | 1.2.62 | 7123326897294507060 | 0x62db241274397c34L | org.apache.commons.collections.functors. |
 | 1.2.62 | 8488266005336625107 | 0x75cc60f5871d0fd3L | org.apache.commons.configuration |
-
-
+| 1.2.62 | 6316154655839304624 | 0xa85882ce1044c450L | oracle.net. |
+| 1.2.62 | 4841947709850912914 | 0x43320dc9d2ae0892L | org.codehaus.jackson. |
 
 ### 目前未知的列表
 

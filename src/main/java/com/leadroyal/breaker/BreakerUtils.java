@@ -125,7 +125,6 @@ public class BreakerUtils {
             List<File> fileList = find(path, recursive);
             Set<String> clzSet = new HashSet<>();
             for (File ppath : fileList) {
-                System.out.println("check path " + ppath);
                 try {
                     readJarFile(clzSet, ppath);
                 } catch (IOException e) {
