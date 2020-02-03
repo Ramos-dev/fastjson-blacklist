@@ -42,10 +42,6 @@ public class V1_2_62 {
             }};
             data.unknown = new LinkedList<BlackInfo.BlockItem>() {{
                 add(new BlackInfo.BlockItem(-5472097725414717105L, "")); //0xb40f341c746ec94fL
-                //白名单
-                add(new BlackInfo.BlockItem(6293031534589903644L, "")); //0x5ab0cb3071ab40d1L
-                //两个是来自于serconfig的class
-
             }};
         }
         return data;

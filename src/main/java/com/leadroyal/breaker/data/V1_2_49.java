@@ -15,6 +15,7 @@ public class V1_2_49 {
                 add(new BlackInfo.BlockItem(4904007817188630457L, "com.alibaba.fastjson.annotation")); //0x440e89208f445fb9L
             }};
             data.unknown = new LinkedList<BlackInfo.BlockItem>() {{
+                add(new BlackInfo.BlockItem(6293031534589903644L, ""));
             }};
         }
         return data;

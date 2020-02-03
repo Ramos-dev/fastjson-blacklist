@@ -160,10 +160,8 @@ add(new BlackInfo.BlockItem(4446674157046724083L, "javassist.util.proxy.Serializ
 | version | hash | hex-hash | name |
 |---|---|---|---|
 | 1.2.42 | 33238344207745342 | 0x761619136cc13eL | |
+| 1.2.49 | 6293031534589903644L | |checkautotype时的内置白名单
 | 1.2.62 | -5472097725414717105 | 0xb40f341c746ec94fL | |
-
-checkautotype时的内置白名单，仍未破解
-add(new BlackInfo.BlockItem(6293031534589903644L, ""));
 
 ### 感谢补充
 
