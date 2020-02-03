@@ -36,14 +36,17 @@ public class V1_2_62 {
                 add(new BlackInfo.BlockItem(8488266005336625107L, "org.apache.commons.configuration")); //0x75cc60f5871d0fd3L
                 add(new BlackInfo.BlockItem(-6316154655839304624L, "oracle.net.")); //0xa85882ce1044c450L
                 add(new BlackInfo.BlockItem(4841947709850912914L, "org.codehaus.jackson.")); //0x43320dc9d2ae0892L
-
+                add(new BlackInfo.BlockItem(-4608341446948126581L, "jdk.internal.")); //0xc00be1debaf2808bL
+                add(new BlackInfo.BlockItem(3256258368248066264L, "java.lang.UNIXProcess")); //0x2d308dbbc851b0d8L
             }};
             data.unknown = new LinkedList<BlackInfo.BlockItem>() {{
                 add(new BlackInfo.BlockItem(-5472097725414717105L, "")); //0xb40f341c746ec94fL
-                add(new BlackInfo.BlockItem(-4608341446948126581L, "")); //0xc00be1debaf2808bL
-                add(new BlackInfo.BlockItem(3256258368248066264L, "")); //0x2d308dbbc851b0d8L
                 add(new BlackInfo.BlockItem(6534946468240507089L, "")); //0x5ab0cb3071ab40d1L
+                //白名单
                 add(new BlackInfo.BlockItem(6293031534589903644L, "")); //0x5ab0cb3071ab40d1L
+                //两个是来自于config的class
+                add(new BlackInfo.BlockItem(4165360493669296979L, "")); //0x5ab0cb3071ab40d1L
+                add(new BlackInfo.BlockItem(4446674157046724083L, "")); //0x5ab0cb3071ab40d1L
             }};
         }
         return data;
