@@ -128,7 +128,7 @@ public class BreakerUtils {
                 try {
                     readJarFile(clzSet, ppath);
                 } catch (IOException e) {
-                    System.out.println("check path FAILED " + ppath);
+                    System.out.println("check path FAILED " + ppath+e.getLocalizedMessage());
                 }
             }
             String[] ss = new String[clzSet.size()];
