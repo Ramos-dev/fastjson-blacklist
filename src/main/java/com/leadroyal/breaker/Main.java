@@ -13,7 +13,7 @@ public class Main {
 //        // 使用指定的目录去完善
         //BreakerUtils.completeDatabase(new File("/Users/nano/.m2/repository/"), true);
         BreakerUtils.completeDatabase(new File("/home/sankuai/.m2/repository/"), true);
-        //BreakerUtils.completeDatabase(new File("/Library/Java/JavaVirtualMachines/"), true);
+      //  BreakerUtils.completeDatabase(new File("/Library/Java/JavaVirtualMachines/"), true);
        // BreakerUtils.completeDatabase(new File("/opt/meituan/apps/maven-repository/.storage/data/"), true);
 //
 //
