@@ -12,6 +12,9 @@ public class V1_2_70 {
             data = new BlackInfo();
             data.version = 1270;
             data.known = new LinkedList<BlackInfo.BlockItem>() {{
+
+            }};
+            data.unknown = new LinkedList<BlackInfo.BlockItem>() {{
                 add(new BlackInfo.BlockItem(-9164606388214699518L, ""));
                 add(new BlackInfo.BlockItem(-7775351613326101303L, ""));
                 add(new BlackInfo.BlockItem(-6025144546313590215L, ""));
@@ -29,8 +32,6 @@ public class V1_2_70 {
                 add(new BlackInfo.BlockItem(5474268165959054640L, ""));
                 add(new BlackInfo.BlockItem(5596129856135573697L, ""));
                 add(new BlackInfo.BlockItem(6854854816081053523L, ""));
-            }};
-            data.unknown = new LinkedList<BlackInfo.BlockItem>() {{
                   }};
         }
         return data;
