@@ -22,6 +22,6 @@ public class Main {
 //        BreakerUtils.listDatabase();
 
         // 功能3：输入classname，输出被ban情况
-      //  BreakerUtils.isBanned("org.apache.ibatis.datasource.jndi.JndiDataSourceFactory");
+        //BreakerUtils.isBanned("org.apache.ibatis.datasource.jndi.JndiDataSourceFactory");
     }
 }
