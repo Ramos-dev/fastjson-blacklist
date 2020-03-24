@@ -23,13 +23,15 @@ public class V1_2_67 {
                 add(new BlackInfo.BlockItem(6854854816081053523L, "org.mortbay.jetty.")); //0x5f215622fb630753L
                 add(new BlackInfo.BlockItem(-7775351613326101303L, "org.apache.shiro.realm.")); //0x941866e73beff4c9L
                 add(new BlackInfo.BlockItem(5274044858141538265L, "org.javasimon.")); //0x49312bdafb0077d9L
+                add(new BlackInfo.BlockItem(-905177026366752536L, "org.apache.catalina.")); //0xf3702a4a5490b8e8L
+
+
             }};
             data.unknown = new LinkedList<BlackInfo.BlockItem>() {{
-                add(new BlackInfo.BlockItem(-7775351613326101303L, ""));
                 add(new BlackInfo.BlockItem(-5885964883385605994L, ""));
+                add(new BlackInfo.BlockItem(-7664754268949623254L, ""));
                 add(new BlackInfo.BlockItem(-831789045734283466L, ""));
                 add(new BlackInfo.BlockItem(2731823439467737506L, ""));
-                add(new BlackInfo.BlockItem(5274044858141538265L, ""));
                 add(new BlackInfo.BlockItem(5474268165959054640L, ""));
 
             }};

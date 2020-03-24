@@ -11,10 +11,13 @@ public class Main {
 //        // 使用指定的jar去完善
 //        BreakerUtils.completeDatabase(new File("C:\\Users\\leadroyal\\.gradle\\caches\\modules-2\\files-2.1\\com.alibaba\\fastjson\\1.2.24\\a2b82688715ee16d874d90229d204daf3efcac8e\\fastjson-1.2.24.jar"));
 //        // 使用指定的目录去完善
-      //  BreakerUtils.completeDatabase(new File("/Users/nano/.m2/repository/"), true);
+       //BreakerUtils.completeDatabase(new File("/Users/nano/.m2/repository/"), true);
         BreakerUtils.completeDatabase(new File("/home/sankuai/.m2/repository/"), true);
-      //  BreakerUtils.completeDatabase(new File("/Library/Java/JavaVirtualMachines/"), true);
+        //BreakerUtils.completeDatabase(new File("/Library/Java/JavaVirtualMachines/"), true);
        // BreakerUtils.completeDatabase(new File("/opt/meituan/apps/maven-repository/.storage/data/"), true);
+
+        System.out.println(TypeUtils.fnv1a_64("org.apache.cxf.jaxrs.utils.schemas.SchemaHandler"));
+        System.out.println(TypeUtils.fnv1a_64_lower("org.apache.commons.jelly.impl.Embedded"));
 //
 //
 //        // 功能2：输入版本号，输出已知和未知的列表
@@ -22,6 +25,11 @@ public class Main {
 //        BreakerUtils.listDatabase();
 
         // 功能3：输入classname，输出被ban情况
-        //BreakerUtils.isBanned("org.apache.ibatis.datasource.jndi.JndiDataSourceFactory");
+        BreakerUtils.isBanned("org.apache.ignite.cache.jta.jndi.CacheJndiTmLookup");
+    }
+
+    private static void burp(){
+        String clas = "com.alibaba";
+
     }
 }
